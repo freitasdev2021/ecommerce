@@ -1,0 +1,740 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans",sans-serif;
+}
+
+.brandBanner{
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* body{
+  background:rgb(229, 226, 226);
+} */
+
+hr{
+  color:rgb(0,57,121);
+}
+
+/*CABECALHO*/
+header{
+  height: 90px;
+  background: #ffffff;
+  border-bottom:solid 2px rgb(0,57,121);
+  width:100%;
+  position:fixed;
+  top:0;
+  overflow:hidden;
+}
+
+.inner-width{
+  width: 100%;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.logo{
+  float: left;
+  padding: 20px 0;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.pesquisa{
+  float:right;
+  margin:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.pesquisa input{
+  width:250px;
+  padding:10px;
+}
+
+.ftcat{
+  width:100%;
+  border-radius:10px;
+}
+
+.pesquisa button{
+  width: 50px;
+  padding: 10px;
+  background: rgb(0,57,121);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-left: -5px;
+  padding-bottom: 13px;
+}
+
+/*********************/
+.pesquisaMobile{
+  margin:20px;
+  display:none;
+  justify-content:center;
+}
+
+
+.navigation-menu{
+  float: left;
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  margin-left:25px;
+}
+
+.navigation-menu a{
+  color: rgb(0,57,121);
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: .3s linear;
+  text-decoration:none;
+  margin:10px;
+  margin-bottom:5px;
+  font-size:15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navigation-menu a:hover{
+  background: #fff;
+  color: #2f3640;
+  transform: scale(1.1);
+}
+
+.menu-toggle-btn{
+  float: right;
+  height: 90px;
+  line-height: 90px !important;
+  font-size: 26px;
+  display: none !important;
+  cursor: pointer;
+  color:rgb(0,57,121); 
+}
+/*SOBRE*/
+.sobreMicrolins .bannerSobre img{
+  width:100%;
+  border-radius: 10px;
+}
+
+.cardHistoria{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.cardHistoria h4{
+ margin:30px;
+ background: rgb(0,57,121);
+ padding:30px;
+ border-radius:10px;
+ box-shadow: 5px 5px 5px 10px rgb(0,57,121);
+ color:white;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ width:25%;
+ text-align:center;
+}
+
+.missaoValores{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.missaoValores span{
+  margin:10px;
+  padding:20px;
+  border:solid rgb(3, 2, 2);
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius:10px;
+  width: 25%;
+  text-align:center;
+  font-size:1.5em;
+  color:white;
+  background:rgb(0,57,121);
+}
+
+#valores ul{
+  list-style:none;
+  text-align:center;
+}
+
+#valores p{
+  background:white;
+  color:black;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+}
+/*RESTO*/
+
+.socialMedia{
+  margin-top:90px;
+  background:white;
+  padding:5px;
+}
+
+.socialMedia a{
+  margin:5px;
+  text-decoration:none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.pdp{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background: rgb(0,57,121);
+  padding:2%;
+}
+
+#pdp1{
+  width:450px;
+  height:450px;
+  margin-left:130px;
+}
+
+.rodape{
+  background:rgb(0,57,121);
+  /* margin-bottom:-10px; */
+  padding:5px;
+  color:white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align:center;
+  font-size:10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.rodape strong{
+  line-height: 15px;
+}
+
+#pdp2{
+  width:100%;
+  /* height:500px; */
+}
+
+#pdp3{
+  width:35%;
+  margin-right:25%;
+  margin-left:35%;
+  /* height:500px; */
+}
+
+.banner{
+  background: url('../files/fundoo.jpg');
+  width:100%;
+  background-size: cover;
+  height:500px;
+  text-align:center;
+}
+
+.banner h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:50px;
+}
+
+.pdp h1{
+  font-size:40px;
+  color:white;
+  text-align:center;
+}
+
+.btPdp{
+  background:rgb(218, 233, 16);
+  color:white;
+  border-radius:20px;
+  border:solid rgb(218, 233, 16);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width:50%;
+  font-size:20px;
+  box-shadow:2px 2px 2px 2px;
+  padding:10px;
+}
+
+.pdp h2{
+  font-size:20px;
+  color:rgb(218, 233, 16);
+  text-align:center;
+}
+
+.banner p{
+  padding:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  width:100%;
+}
+#btnWhatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:blue;
+  text-decoration:none;
+}
+
+#btnWhatsapp img{
+  width:120px;
+  height:120px; 
+}
+
+#cursos{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.categoria{
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:10px;
+  background:white;
+  text-align:center;
+  border:solid white;
+  box-shadow:1px 1px 1px 1px;
+  flex-wrap:wrap;
+  margin-bottom:auto;
+  color:white;
+}
+
+.categoria{
+  cursor:pointer;
+}
+
+.categoria img{
+  width:100%;
+  height:250px;
+}
+
+.hoverCat{
+  width:100%;
+  height:70px;
+  padding:10px;
+  background:rgb(0,57,121);
+  font-size:1.2em;
+}
+
+.categoria #btnMat{
+  background: rgb(0,57,121);
+  padding:10px;
+  width:100%;
+  text-align:center;
+}
+
+.categoria #btnMat a{
+  text-decoration:none;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.beneficios{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  flex-wrap:wrap;
+}
+
+.ben{
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  width:250px;
+}
+
+.loc{
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:60px;
+}
+
+.mvv{
+  margin-bottom:40px;
+}
+
+.loc label{
+  margin:10px;
+}
+
+#ctt{
+  display:flex;
+  flex-direction:column;
+}
+
+#ctt a{
+  text-decoration:none;
+}
+
+#ctt .labelRow{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#ctt label .fa-whatsapp{
+  color:green;
+  font-size:1.5em;
+}
+
+.beneficios .ben img{
+  width:100px;
+  height:100px;
+}
+
+.curso img{
+  width:250px;
+  height:250px;
+  border:solid white;
+  border-radius:20px;
+}
+
+.curso .btnC{
+  margin:5px;
+  background: rgb(0,57,121);
+  padding:10px;
+  width:250px;
+  text-align:center;
+  border-radius:20px;
+}
+
+.curso .btnC a{
+  text-decoration:none;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#contato{
+  width:100%;
+  padding:1%;
+  display:flex;
+  justify-content:center;
+}
+
+.contentCursos{
+  margin-top:90px;
+  background:white
+}
+
+.instagram i{
+  background:#F77737;
+  color:white ;
+  padding:3px; 
+  border-radius:5px;
+}
+
+.facebook i{
+  background:blue;
+  color:white; 
+  padding:3px; 
+  border-radius:5px;
+}
+
+.gridCursos{
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.moduloCurso{
+  border:solid rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: rgb(0,57,121);
+  margin-top:10px;
+  width:99%;
+  padding:10px;
+  font-size:1.5em;
+  color:white;
+}
+
+.moduloCurso a{
+  color:white;
+  text-decoration:none;
+}
+
+.footerDesconto{
+  width:50%;
+  background:red;
+  border:solid white;
+  display:flex;
+  justify-content:center;
+  margin-bottom:100px;
+  padding:10px;
+  border-radius:20px;
+  box-shadow:black 5px 5px 5px 5px;
+  cursor:pointer;
+}
+
+.fter{
+  display:flex;
+  justify-content:center;
+}
+
+.footerDesconto a{
+  color:white;
+  text-decoration:none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:1.5em;
+}
+
+.curso{
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.curso img{
+  width:250px;
+  height:250px;
+}
+
+.matriculese{
+  /* background:white;
+  display:flex;
+  justify-content:center; */
+  width:100%;
+  padding:50px;
+}
+
+.matricula{
+  background:white;
+  padding:20px;
+  border-radius:20px;
+  border:solid rgb(0,57,121);
+  /* width:100%;
+  padding:20px;
+  display:flex;
+  flex-direction:column; */
+}
+
+.bt_enviar{
+  width:100%;
+}
+/**/
+
+
+@media screen and (max-width:1270px) {
+
+  *{
+    text-align:center;
+  }
+
+  footer strong{
+    font-size:15px;
+  }
+
+  .cardHistoria h4{
+    width:100%;
+  }
+  .sobreMicrolins .bannerSobre img{
+    width:300px;
+    border-radius: 10px;
+    border:solid rgb(0,57,121); 
+  }
+  .missaoValores{
+    flex-direction:column;
+  }
+  .missaoValores span{
+    width:100%;
+    font-size:1.2em;
+  }
+
+  .menu-toggle-btn{
+    display: block !important;
+  }
+
+  .navigation-menu{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 90px;
+    right: 0;
+    display: none;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+
+  .navigation-menu::before{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+
+  .pesquisaMobile{
+      display:block;
+      justify-content:center;
+  }
+
+  .pesquisaMobile input{
+      width:180px;
+      padding:10px;
+  }
+    
+  .pesquisaMobile button{
+      width: 50px;
+      padding: 8px;
+      background: rgb(0,57,121);
+      color: white;
+      font-size: 25px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+      margin-left: -5px;
+      padding-bottom: 13px;
+  }
+
+  .pesquisa{
+      display:none !important;
+  }
+
+  .navigation-menu a{
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navigation-menu.active{
+    display: block;
+  }
+
+  .matriculese{
+    padding:10px;
+  }
+
+  #pdp1{
+    width:100px;
+    height:100px;
+    margin-right:100px;
+  }
+
+  #btnWhatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    color:blue;
+    text-decoration:none;
+    width:80px;
+  }
+  
+  #btnWhatsapp img{
+    width:60px;
+    height:60px;
+  }
+
+  #btnWhatsapp b{
+    width:90px;
+  }
+
+  .banner{
+    height:1500px;
+    width:100%;
+  }
+  #ctt strong{
+    width:100%;
+  }
+  label {
+    text-align:center;
+  }
+  .loc{
+    display:flex;
+    justify-content:center;
+  }
+  iframe{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:280px) and (min-width:0px) {
+
+  .menu-toggle-btn{
+    display: block !important;
+  }
+
+  .navigation-menu{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 90px;
+    right: 0;
+    display: none;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+
+  .navigation-menu::before{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+
+  .pesquisa{
+      display:none !important;
+  }
+
+  .pesquisaMobile input{
+    width:100px;
+    padding:10px;
+  }
+
+  .navigation-menu a{
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navigation-menu.active{
+    display: block;
+  }
+
+  #btnWhatsapp{
+    width:60px;
+    height:60px; 
+  }
+  .banner{
+    height:1700px;
+    width:100%;
+  }
+
+  .banner h1{
+    font-family: Impact, fantasy;
+    font-size:40px;
+  }
+  
+  #btnWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:60px;
+    height:60px; 
+  }
+
+}
